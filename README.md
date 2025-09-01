@@ -35,8 +35,9 @@ county_codes = {
     'YAVAPAI': 'YA', 'COCONINO': 'CN', 'GREENLEE': 'GN'
 }
 ```
+You could also use FIPS county prefixes in this dictionary, but I prefer alphabetical because it lets me easily see at a glance which county any precinct is in.
 
-> **Assumption:** County names in your CSV match these keys (uppercased, spacing as shown). If not, normalize first (e.g., `df['countyname'] = df['countyname'].str.upper().str.strip()`).
+> **Assumption:** County names in your CSV match these keys (uppercased, spacing as shown). If not, normalize first (e.g., `df['countyname'] = df['countyname'].str.upper().str.strip()`). 
 
 ---
 
