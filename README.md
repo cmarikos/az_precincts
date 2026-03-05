@@ -1,5 +1,7 @@
 # AZ Precinct Code Normalizer (`pctnum`)
 
+I use this in conjunction with [geo-precincts](https://github.com/cmarikos/geo-precincts) to build a uniformly coded WKT AZ precinct file for mapping in Looker Studio.
+
 This project standardizes Arizona voting precinct identifiers into a **uniform 6‑character `pctnum`** code:
 
 ```
