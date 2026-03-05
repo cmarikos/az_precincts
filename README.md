@@ -137,7 +137,7 @@ print(precincts[['county_name','svi_registration_national_precinct_code','pctnum
 
 ---
 
-## Data quality checks (recommended)
+## Data quality checks
 
 After writing your output CSV:
 
